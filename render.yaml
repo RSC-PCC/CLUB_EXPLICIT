@@ -3,6 +3,5 @@ services:
     name: stripe-telegram-webhook
     env: python
     buildCommand: ""
-    startCommand: "gunicorn main:app"
     plan: free
     autoDeploy: true
